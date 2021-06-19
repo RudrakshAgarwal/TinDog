@@ -1,0 +1,220 @@
+/*... invisible scroll on body...*/
+body::-webkit-scrollbar {
+    width: 0px;
+     background: transparent; /* Chrome/Safari/Webkit */
+}
+
+body {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+}
+/*........ /invisible ends........*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+    color: #8f8f8f;
+    line-height: 1.8;
+}
+
+/* Containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+.coloured-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+/* ------------------------------------------------Headings---------------------------------------------- */
+.header-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.pricing-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.pricing-heading2{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.feature-heading{
+    font-weight: 900;
+}
+/* ------------------------------------------------/Headings---------------------------------------------- */
+
+
+
+/* ------------------------------------------------Header-Section---------------------------------------------- */
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+/* Download Button */
+.download-button{
+    margin: 5% 3% 5% 0; /*top, right, left, bottom*/
+}
+
+
+
+/* Header-Section */
+#header .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* Header image */
+.header-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width: 1028px){
+        
+    .header-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* ------------------------------------------------/Header-Section---------------------------------------------- */
+
+
+/* ------------------------------------------------Features-Section---------------------------------------------- */
+#features{
+    position: relative;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+/* ------------------------------------------------/Features-Section---------------------------------------------- */
+
+
+/* ------------------------------------------------Testimonial-Section---------------------------------------------- */
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* ------------------------------------------------/Testimonial-Section---------------------------------------------- */
+
+
+
+/* ------------------------------------------------Press-Section---------------------------------------------- */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* ------------------------------------------------/Press-Section---------------------------------------------- */
+
+
+
+
+/* ------------------------------------------------Pricing-Section---------------------------------------------- */
+#pricing{
+    padding: 100px;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+/* ------------------------------------------------/Pricing-Section---------------------------------------------- */
+
+
+
+/* ------------------------------------------------Call to Action---------------------------------------------- */
+.container-fluid .cta-heading{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+/* ------------------------------------------------/Call to Action---------------------------------------------- */
+
+
+
+/* ------------------------------------------------Footer---------------------------------------------- */
+#footer{
+    background-color: #fff;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+.cta-para{
+    color: rgb(97, 93, 93);
+}
+/* ------------------------------------------------/Footer---------------------------------------------- */
