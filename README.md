@@ -1,1 +1,1 @@
-# TinDog.github.io
+# TinDog
